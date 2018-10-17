@@ -79,9 +79,9 @@ function walk(oldNode, newNode, index, patches) {
         // 当前元素确实有补丁
         // 将元素和补丁对应起来 放到大补丁包中
         patches[index] = currentPatch;
-        console.log('====================================');
-        console.log(patches);
-        console.log('====================================');
+        // console.log('====================================');
+        // console.log(patches);
+        // console.log('====================================');
     }
 }
 
